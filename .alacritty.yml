@@ -123,10 +123,16 @@ colors:
     #background: "0x403e41"
     background: "0x221f22" # standard dark
     background: "0x152238" # dark blue
+    background: "0x0a0612"
+    background: "0x16171f"
     #background: "0x000239"
     #background: '0x282c34'
     #foreground: "0xcbbae9"
     foreground: "0xaccdf3"
+    foreground: "0xdcb3dc" # pinkish
+    foreground: "0xb392b3"
+    foreground: "0x8282ba"
+
 
     # Bright and dim foreground colors
     #
@@ -173,6 +179,7 @@ colors:
     blue: "0x61afef"
     magenta: "0xc678dd"
     cyan: "0x69d0ff"
+    cyan: "0xcd4c6d"
     white: "0xe6efff"
 
   # Dim colors
