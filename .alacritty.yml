@@ -27,8 +27,8 @@ window:
   #   - SimpleFullscreen
   #startup_mode: Windowed
   dimensions:
-    columns: 110
-    lines: 35
+    columns: 100
+    lines: 45
 
   # Window title
   title: Alacritty
@@ -62,32 +62,32 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: "CaskaydiaCove Nerd Font"
-    #style: Regular
+    family: "MesloLGS NF"
+    style: Regular
 
   # Bold font face
   bold:
-    family: "CaskaydiaCove Nerd Font"
+    family: "MesloLGS NF"
     #style: Bold
 
   # Italic font face
   italic:
-    family: "CaskaydiaCove Nerd Font"
+    family: "MesloLGS NF"
     #style: Italic
 
   # Bold italic font face
   bold_italic:
-    family: "CaskaydiaCove Nerd Font"
+    family: "MesloLGS NF"
     #style: Bold Italic
 
   # Point size
-  size: 12.0
+  size: 11.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
   offset:
     x: 0
-    y: 1
+    y: 2
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the right,
@@ -120,9 +120,13 @@ colors:
   primary:
     #background: '0x2D2A2E'
     #background: '0x373538'
-    background: "0x403e41"
+    #background: "0x403e41"
+    background: "0x221f22" # standard dark
+    background: "0x152238" # dark blue
+    #background: "0x000239"
     #background: '0x282c34'
-    foreground: "0xbbc2cf"
+    #foreground: "0xcbbae9"
+    foreground: "0xaccdf3"
 
     # Bright and dim foreground colors
     #
@@ -168,7 +172,7 @@ colors:
     yellow: "0xd19a66"
     blue: "0x61afef"
     magenta: "0xc678dd"
-    cyan: "0x56b6c2"
+    cyan: "0x69d0ff"
     white: "0xe6efff"
 
   # Dim colors
@@ -225,7 +229,7 @@ bell:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.96
+background_opacity: 0.90
 # background_opacity: 0.95
 
 #selection:
@@ -237,9 +241,9 @@ background_opacity: 0.96
 # Allow terminal applications to change Alacritty's window title.
 #dynamic_title: true
 
+
 cursor:
   # Cursor style
-  #
   # Values for `style`:
   #   - ▇ Block
   #   - _ Underline
